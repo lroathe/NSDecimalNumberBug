@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE980EF1EE0A3610049EF16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE980EE1EE0A3610049EF16 /* AppDelegate.m */; };
+		2FE980F21EE0A3610049EF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE980F11EE0A3610049EF16 /* main.m */; };
+		2FE980F51EE0A3610049EF16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE980F41EE0A3610049EF16 /* ViewController.m */; };
+		2FE980F71EE0A3610049EF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE980F61EE0A3610049EF16 /* Assets.xcassets */; };
+		2FE980FA1EE0A3610049EF16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE980F81EE0A3610049EF16 /* Main.storyboard */; };
+		2FE981051EE0A3610049EF16 /* NSDecimalNumberBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE981041EE0A3610049EF16 /* NSDecimalNumberBugTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE981011EE0A3610049EF16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FE980E21EE0A3610049EF16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE980E91EE0A3610049EF16;
+			remoteInfo = NSDecimalNumberBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE980EA1EE0A3610049EF16 /* NSDecimalNumberBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDecimalNumberBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE980ED1EE0A3610049EF16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FE980EE1EE0A3610049EF16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FE980F11EE0A3610049EF16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE980F31EE0A3610049EF16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FE980F41EE0A3610049EF16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FE980F61EE0A3610049EF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FE980F91EE0A3610049EF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FE980FB1EE0A3610049EF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE981001EE0A3610049EF16 /* NSDecimalNumberBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDecimalNumberBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE981041EE0A3610049EF16 /* NSDecimalNumberBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDecimalNumberBugTests.m; sourceTree = "<group>"; };
+		2FE981061EE0A3610049EF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE980E71EE0A3610049EF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE980FD1EE0A3610049EF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE980E11EE0A3610049EF16 = {
+			isa = PBXGroup;
+			children = (
+				2FE980EC1EE0A3610049EF16 /* NSDecimalNumberBug */,
+				2FE981031EE0A3610049EF16 /* NSDecimalNumberBugTests */,
+				2FE980EB1EE0A3610049EF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE980EB1EE0A3610049EF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE980EA1EE0A3610049EF16 /* NSDecimalNumberBug.app */,
+				2FE981001EE0A3610049EF16 /* NSDecimalNumberBugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE980EC1EE0A3610049EF16 /* NSDecimalNumberBug */ = {
+			isa = PBXGroup;
+			children = (
+				2FE980ED1EE0A3610049EF16 /* AppDelegate.h */,
+				2FE980EE1EE0A3610049EF16 /* AppDelegate.m */,
+				2FE980F31EE0A3610049EF16 /* ViewController.h */,
+				2FE980F41EE0A3610049EF16 /* ViewController.m */,
+				2FE980F61EE0A3610049EF16 /* Assets.xcassets */,
+				2FE980F81EE0A3610049EF16 /* Main.storyboard */,
+				2FE980FB1EE0A3610049EF16 /* Info.plist */,
+				2FE980F01EE0A3610049EF16 /* Supporting Files */,
+			);
+			path = NSDecimalNumberBug;
+			sourceTree = "<group>";
+		};
+		2FE980F01EE0A3610049EF16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE980F11EE0A3610049EF16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE981031EE0A3610049EF16 /* NSDecimalNumberBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE981041EE0A3610049EF16 /* NSDecimalNumberBugTests.m */,
+				2FE981061EE0A3610049EF16 /* Info.plist */,
+			);
+			path = NSDecimalNumberBugTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE980E91EE0A3610049EF16 /* NSDecimalNumberBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE981091EE0A3610049EF16 /* Build configuration list for PBXNativeTarget "NSDecimalNumberBug" */;
+			buildPhases = (
+				2FE980E61EE0A3610049EF16 /* Sources */,
+				2FE980E71EE0A3610049EF16 /* Frameworks */,
+				2FE980E81EE0A3610049EF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDecimalNumberBug;
+			productName = NSDecimalNumberBug;
+			productReference = 2FE980EA1EE0A3610049EF16 /* NSDecimalNumberBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FE980FF1EE0A3610049EF16 /* NSDecimalNumberBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE9810C1EE0A3610049EF16 /* Build configuration list for PBXNativeTarget "NSDecimalNumberBugTests" */;
+			buildPhases = (
+				2FE980FC1EE0A3610049EF16 /* Sources */,
+				2FE980FD1EE0A3610049EF16 /* Frameworks */,
+				2FE980FE1EE0A3610049EF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE981021EE0A3610049EF16 /* PBXTargetDependency */,
+			);
+			name = NSDecimalNumberBugTests;
+			productName = NSDecimalNumberBugTests;
+			productReference = 2FE981001EE0A3610049EF16 /* NSDecimalNumberBugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE980E21EE0A3610049EF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Quicken, Inc.";
+				TargetAttributes = {
+					2FE980E91EE0A3610049EF16 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = MQ5W46QNFN;
+						ProvisioningStyle = Automatic;
+					};
+					2FE980FF1EE0A3610049EF16 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = MQ5W46QNFN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FE980E91EE0A3610049EF16;
+					};
+				};
+			};
+			buildConfigurationList = 2FE980E51EE0A3610049EF16 /* Build configuration list for PBXProject "NSDecimalNumberBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FE980E11EE0A3610049EF16;
+			productRefGroup = 2FE980EB1EE0A3610049EF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE980E91EE0A3610049EF16 /* NSDecimalNumberBug */,
+				2FE980FF1EE0A3610049EF16 /* NSDecimalNumberBugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE980E81EE0A3610049EF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE980F71EE0A3610049EF16 /* Assets.xcassets in Resources */,
+				2FE980FA1EE0A3610049EF16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE980FE1EE0A3610049EF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE980E61EE0A3610049EF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE980F51EE0A3610049EF16 /* ViewController.m in Sources */,
+				2FE980F21EE0A3610049EF16 /* main.m in Sources */,
+				2FE980EF1EE0A3610049EF16 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE980FC1EE0A3610049EF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE981051EE0A3610049EF16 /* NSDecimalNumberBugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FE981021EE0A3610049EF16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE980E91EE0A3610049EF16 /* NSDecimalNumberBug */;
+			targetProxy = 2FE981011EE0A3610049EF16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FE980F81EE0A3610049EF16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE980F91EE0A3610049EF16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE981071EE0A3610049EF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2FE981081EE0A3610049EF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2FE9810A1EE0A3610049EF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MQ5W46QNFN;
+				INFOPLIST_FILE = NSDecimalNumberBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quicken.NSDecimalNumberBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FE9810B1EE0A3610049EF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MQ5W46QNFN;
+				INFOPLIST_FILE = NSDecimalNumberBug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quicken.NSDecimalNumberBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FE9810D1EE0A3610049EF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MQ5W46QNFN;
+				INFOPLIST_FILE = NSDecimalNumberBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quicken.NSDecimalNumberBugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDecimalNumberBug.app/Contents/MacOS/NSDecimalNumberBug";
+			};
+			name = Debug;
+		};
+		2FE9810E1EE0A3610049EF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MQ5W46QNFN;
+				INFOPLIST_FILE = NSDecimalNumberBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quicken.NSDecimalNumberBugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDecimalNumberBug.app/Contents/MacOS/NSDecimalNumberBug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE980E51EE0A3610049EF16 /* Build configuration list for PBXProject "NSDecimalNumberBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE981071EE0A3610049EF16 /* Debug */,
+				2FE981081EE0A3610049EF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE981091EE0A3610049EF16 /* Build configuration list for PBXNativeTarget "NSDecimalNumberBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE9810A1EE0A3610049EF16 /* Debug */,
+				2FE9810B1EE0A3610049EF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FE9810C1EE0A3610049EF16 /* Build configuration list for PBXNativeTarget "NSDecimalNumberBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE9810D1EE0A3610049EF16 /* Debug */,
+				2FE9810E1EE0A3610049EF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE980E21EE0A3610049EF16 /* Project object */;
+}
